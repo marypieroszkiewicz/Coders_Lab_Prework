@@ -18,15 +18,15 @@ var a = 5;
 var b = 7;
 var c = 9;
 
-if (a > b) {
-    console.log("a jest większe od b");
-} else if (b > c) {
-    console.log("b jest większe od c"); 
+if (a > b && c) {
+    console.log("Liczba w zmiennej a liczba jest największa");
+} else if (b > c && a) {
+    console.log("Liczba w zmiennej b liczba jest największa"); 
 } else {
-    console.log("c jest większe od a i b");
+    console.log("Liczba w zmiennej c liczba jest największa");
 }
 
-// W konsoli został wyświetlony wynik operacji: zmienna c jest większa od a i b. 
+// W konsoli został wyświetlony wynik operacji: Zmienna w c ma największą wartość.
 
 
 /* ----- Zadanie 3 ----- */

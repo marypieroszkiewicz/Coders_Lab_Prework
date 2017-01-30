@@ -63,16 +63,14 @@ console.log("Największa liczba w tablicy to: " + max);
 /* ----- Zadanie 6 ----- */
 
 var arrWithNumbers = [1, 2, 2, 8, 7, 6, 2, 8, 5, 3];
-var firstIndex = null;
-  
+var firstIndex = 0;
+
 for (var i = 0; i < arrWithNumbers.length; i++) {
-    for (var j = 0; j < arrWithNumbers.length; j++) {
-    if (arrWithNumbers[i] === arrWithNumbers[j] && i !=j ) {
-        firstIndex = i;
-        break;
-    }
-  }
- if (firstIndex !== null) break;
+	var currentNumber = arrWithNumbers.indexOf(arrWithNumbers[i]);
+	if (currentNumber !== i) {
+		firstIndex = currentNumber;
+		break;
+	}
 }
 console.log("Indeks pierwszej powtórzonej liczby w tablicy to: " + firstIndex);
 
