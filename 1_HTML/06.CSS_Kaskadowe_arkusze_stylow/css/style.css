@@ -1,0 +1,19 @@
+body {
+	background-color: blue;
+}
+
+#first {
+	color: darkgreen;
+}
+
+#second {
+	color: purple;
+}
+
+.others {
+	color: brown;
+}
+
+.block {
+	border: 1px solid white;
+}

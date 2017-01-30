@@ -1,0 +1,34 @@
+body {
+	font-family: Verdana, Arial, sans-serif;
+}
+
+#container {
+	width: 500px;
+	border-left: 1px solid rgba(171, 176, 178, .25);
+	padding: 1px 0 0 7px;
+}
+
+h1 {
+	color: #fff;
+	font-size: 20px;
+	text-shadow: 0 0 10px #878787;
+	background-color: #ACC4CE;
+	text-transform: uppercase;
+	text-align: center;
+	vertical-align: text-top;
+	letter-spacing: 0.0625em;
+	padding-bottom: .3em;
+}
+
+span {
+	color: #395075;
+	letter-spacing: 10px;
+	font-style: italic;
+}
+
+p {
+	color: DarkGray;
+	font-size: 14px;
+	line-height: 20px;
+	text-indent: 20px;
+}

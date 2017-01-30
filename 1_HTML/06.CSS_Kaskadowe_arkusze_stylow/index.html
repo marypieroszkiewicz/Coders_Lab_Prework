@@ -2,9 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Dodawanie styli do HTML-a</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+    	body {
+    		background-color: pink;
+    	}
+    </style>
+
+    <!--Kolejność umieszczania styli ma znaczenie. Przeglądarka sprawdzi w pierwszej kolejności, czy interpretowany element zawiera styl inline, jeżeli nie ma żadnego stylu inline, to przeglądarka poszuka elementu style, który zawierałby styl odnoszący się do elementu. Jeżeli nie ma żadnego elementu style, to przeglądarka sprawdza arkusze stylów importowane elementem link.
+
+	W poniższym przykładzie wynikiem nadania stylów, będzie ustawiony kolor różowy, jest sprawdzany przez przeglądarkę jako pierwszy. -->
 </head>
-<body>
+<body style="background-color: green">
+
+	<!--Jak już wcześniej wspomniałam kolejność umieszczania styli ma znaczenie. Styl umieszczony w tagu body zawiera styl inline czyli przeglądarka zinterpretuje (wyświetli) go jako pierwszy, tak więc zostanie wyświetlony kolor zielony.-->
+
+	<p id="first">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+	<p id="second">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+
+	<p class="others">The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+	<p class="others">The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+	<p class="others">The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+	<p class="others">The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+	<p class="others">The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+	<p class="others">The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+	<p class="others">The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+	<p class="others">The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+	<p class="others">The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+	<p class="others">The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+	
+	<div class="block">
+		<p>Curabitur ultricies porta bibendum. Aenean congue tempus eleifend. Phasellus finibus.</p>
+	</div>
+	<div class="block">
+		<p>Curabitur ultricies porta bibendum. Aenean congue tempus eleifend. Phasellus finibus.</p>
+	</div>
+	<div class="block">
+		<p>Curabitur ultricies porta bibendum. Aenean congue tempus eleifend. Phasellus finibus.</p>
+	</div>
+	<div class="block">
+		<p>Curabitur ultricies porta bibendum. Aenean congue tempus eleifend. Phasellus finibus.</p>
+	</div>
+	<div class="block">
+		<p>Curabitur ultricies porta bibendum. Aenean congue tempus eleifend. Phasellus finibus.</p>
+	</div>
 
 </body>
 </html>

@@ -1,0 +1,24 @@
+.common {
+	width: 49%;
+	height: 500px;
+	background-color: #47AABA;
+}
+
+#first {
+	float: left;
+}
+
+#second {
+	float: right;
+}
+
+.par {
+	width: 49%;
+	height: auto;
+	font-size: 2.5em;
+	color: gray;
+	border: 1px solid gray;
+	border-style: dashed;
+	float: left;
+	clear: right;
+}

@@ -1,0 +1,54 @@
+#form1 {
+	width: 260px;
+	box-sizing: border-box;
+	font-size: 25px;
+}
+
+#form1 label {
+	display: block;
+	color: #808080;
+	padding-bottom: 3px;
+}
+
+#form1 input, textarea {
+	padding: 5px;
+	width: 627px;
+	border: 1px solid #B7B7B7;
+	display: inline-block;
+	font-size: 15px;
+	font-family: Verdana, sens-serif;
+}
+
+.sumbtn {
+	border: 1px solid #949494;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f7f7+0,dddddd+100 */
+	background: #f7f7f7; /* Old browsers */
+	background: -webkit-linear-gradient(#f7f7f7 0%, #dddddd 100%);
+	background: -o-linear-gradient(#f7f7f7 0%, #dddddd 100%);
+	background: linear-gradient(#f7f7f7 0%, #dddddd 100%); /* FF3.6-15 */
+ 	/* Chrome10-25,Safari5.1-6 */
+ 	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#dddddd',GradientType=0 ); /* IE6-9 */
+}
+
+#submit {
+	width: 125px;
+	font-size: 16px;	
+}
+
+#form2 {
+	width: 400px;
+	box-sizing: border-box;
+}
+
+#form2 label {
+	color: #808080;
+	font-size: 20px;
+}
+
+#btn {
+	display: block;
+	font-size: 13px;
+	text-transform: uppercase;
+	margin-top: 25px;
+}

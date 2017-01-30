@@ -1,0 +1,48 @@
+#span1 {
+	color: lightblue;
+}
+
+#span2 {
+	color: red;
+}
+
+#p-span1 {
+	color: #BF5B75;
+}
+
+#p-span2 {
+	color: #9DC26D;
+}
+
+#p-span3 {
+	color: #70A8BB;
+}
+
+#div1 {
+	color: #F9A12D;
+	background-color: rgba(201, 85, 92, .25);
+}
+
+#div2 {
+	color: #AD94CF;
+	background-color: rgba(107, 160, 178, .25);
+}
+
+#div3 {
+	background-color: hsla(169, 27%, 59%, 1)
+}
+
+#container {
+	background-color: #0091DC;
+	width: 200px;
+}
+
+#par1 {
+	background-color: #FF007C;
+	width: 50%;
+}
+
+#par2 {
+	background-color: #88EE27;
+	width: 20%;
+}

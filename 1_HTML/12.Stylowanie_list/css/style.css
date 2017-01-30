@@ -1,0 +1,14 @@
+#lista {
+	list-style-type: square;
+}
+
+#menu {
+	list-style: none;
+	color: #116493;
+	text-transform: uppercase;
+}
+
+#menu li {
+	display: inline-block;
+	padding: 10px;
+}

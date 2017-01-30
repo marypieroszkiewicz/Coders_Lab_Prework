@@ -2,9 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
-
+    <title>HTML / CSS - Formularze</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+	<form id="form1">
+		<label for="name">Your Name:</label>
+		<input type="text" name="name" placeholder="Your Name">
+		<label for="email">Your E-mail Address</label>
+		<input type="email" name="email" placeholder="Your Email Address">
+		<label for="message">Your Message</label>
+		<textarea rows="10" name="message" placeholder="Please describe your question ot comment"></textarea>
+		<button id="submit" class="sumbtn" type="submit" value="Submit">Send</button>
+	</form>
+
+	<form id="form2">
+		<h1>Run your inteligent robo-car</h1>
+		<h2>Select Country:</h2>
+		<label for="pl">Poland:</label>
+        <input type="checkbox" name="pl" checked>
+        <label for="us">US:</label>
+        <input type="checkbox" name="us">
+        <label for="sm">San Marino:</label>
+        <input type="checkbox" name="sm">
+
+        <h2>Select Car:</h2>
+        <label><input type="radio" name="car" value="1" checked> BMW:</label>
+		<label><input type="radio" name="car" value="2">Jaguar</label>
+
+		<h2>When?</h2>
+		<label for="date">Date:</label>
+        <input type="date" name="date" placeholder="dd.mm.rrrr">
+		
+		<h2>Start engine.</h2>
+		<label>Enter password*: <input type="password" name="password"></label>
+		<button id="btn" class="sumbtn" type="submit" value="Submit">Run Your Car</button>
+	</form>
+
 </body>
 </html>
